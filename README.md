@@ -26,16 +26,16 @@
 
 ## Задание 2. Memcached
 
-![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.](status_memcached.png)
-*Все отображённые метрики имеют статус normal.*
+![Скриншот **Memcached** с active (running) — подтверждает, что сервис запущен.](status_memcached.png)
+
 
 ## Задание 3. Удаление по TTL в Memcached
 
-![Страница раздела **Data collection > Hosts** с привязками шаблонов.](set_key.png)
-*Status - Enabled.*
+![Скриншот **TTL в Memcached** записью ключей с TTL=5 секунд.](set_key.png)
+
 
 ## Задание 4. Запись данных в Redis
 
-![График.](redis_cli.png)
+![Скриншот запуска redis-cli, запись нескольких ключей, получение всех ключей, получение значений по ключам.](redis_cli.png)
                  
-*Zabbix server - available memory, cpu utilization.*
+
